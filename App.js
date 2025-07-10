@@ -98,8 +98,8 @@ const App = () => {
       </header>
 
       {/* Hero Section */}
-      {/* Updated background image to a NASA galaxy image */}
-      <section className="relative h-96 flex items-center justify-center text-center bg-cover bg-center" style={{ backgroundImage: 'urlhttps://www.notion.so/images/page-cover/webb2.jpg' }}>
+      {/* Corrected background image URL syntax and used a reliable Pexels galaxy image */}
+      <section className="relative h-96 flex items-center justify-center text-center bg-cover bg-center" style={{ backgroundImage: 'url(https://images.pexels.com/photos/2150/sky-space-mix-galaxy.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)' }}>
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="relative z-10 text-white p-4">
           <h2 className="text-4xl md:text-6xl font-extrabold mb-4 drop-shadow-lg">Innovating with Code</h2>
@@ -120,7 +120,7 @@ const App = () => {
             {/* Profile Image Placeholder */}
             <div className="flex-shrink-0 mb-6 md:mb-0">
               <img
-                src="blob:https://web.whatsapp.com/c70edc60-0f52-48af-b394-ccb95e875bec" // Replace with your actual photo URL
+                src="https://placehold.co/200x200/A78BFA/FFFFFF?text=Your+Photo" // Replace with your actual photo URL
                 alt="Harshitha Hegde"
                 className="rounded-full w-48 h-48 object-cover shadow-lg border-4 border-pink-300"
               />
