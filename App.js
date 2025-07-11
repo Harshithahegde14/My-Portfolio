@@ -97,11 +97,10 @@ const App = () => {
         </div>
       </header>
 
-      {/* Hero Section */}
-      {/* Corrected background image URL syntax and used a reliable Pexels galaxy image */}
+      {/* Hero Section - Updated with a new, reliable galaxy image URL */}
       <section className="relative h-96 flex items-center justify-center text-center bg-cover bg-center" style={{ backgroundImage: 'url(https://images.pexels.com/photos/2150/sky-space-mix-galaxy.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)' }}>
         <div className="absolute inset-0 bg-black opacity-60"></div>
-        <div className="relative z-10 text-white p-4">
+        <div className="relative z-10 p-4">
           <h2 className="text-4xl md:text-6xl font-extrabold mb-4 drop-shadow-lg">Innovating with Code</h2>
           <p className="text-xl md:text-2xl mb-6 max-w-2xl mx-auto">Problem Solver | Machine Learning Enthusiast | Cloud Explorer</p>
           <a href="#projects" className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
@@ -116,24 +115,15 @@ const App = () => {
         {/* About Me Section */}
         <section id="about" className="bg-white p-6 md:p-10 rounded-3xl shadow-lg mb-10 border-b-4 border-pink-400">
           <h2 className="text-3xl md:text-4xl font-bold text-purple-700 mb-6 text-center">About Me</h2>
-          <div className="flex flex-col md:flex-row items-center md:space-x-8">
-            {/* Profile Image Placeholder */}
-            <div className="flex-shrink-0 mb-6 md:mb-0">
-              <img
-                src="https://placehold.co/200x200/A78BFA/FFFFFF?text=Your+Photo" // Replace with your actual photo URL
-                alt="Harshitha Hegde"
-                className="rounded-full w-48 h-48 object-cover shadow-lg border-4 border-pink-300"
-              />
-            </div>
-            <div>
-              <p className="text-lg leading-relaxed mb-4 text-gray-700">
-                Hello! I'm <span className="font-semibold text-pink-600">Harshitha Hegde</span>, a passionate <span className="font-semibold text-blue-600">Computer Science Engineering Student</span> with a strong interest in <span className="font-semibold text-purple-600">Problem Solving, machine learning, Cloud Computing, Data Science</span>. I love solving complex problems and creating impactful solutions that make a difference.
-                I didn’t come from a tech background; in fact, I studied biology until 12th grade. Tech wasn’t something I grew up with. But once I entered engineering, I discovered programming, struggled at first, and then gradually started enjoying problem-solving and building smart systems. <span className="italic text-gray-600">My curiosity led me to explore data, ML, and cloud computing, and now I’m building projects and preparing for roles that challenge me. I’m not from a traditional tech start — but I’m proud of how far I’ve come.</span> I've been hooked ever since!
-              </p>
-              <p className="text-lg leading-relaxed mb-6 text-gray-700">
-                I'm always eager to learn new technologies and improve my skills, embracing challenges as opportunities for growth. Currently, I'm diving deeper into <span className="font-semibold text-teal-600">Problem Solving, Machine Learning</span>.
-              </p>
-            </div>
+          {/* Removed the profile image/placeholder div and adjusted text flow */}
+          <div>
+            <p className="text-lg leading-relaxed mb-4 text-gray-700">
+              Hello! I'm <span className="font-semibold text-pink-600">Harshitha Hegde</span>, a passionate <span className="font-semibold text-blue-600">Computer Science Engineering Student</span> with a strong interest in <span className="font-semibold text-purple-600">Problem Solving, machine learning, Cloud Computing, Data Science</span>. I love solving complex problems and creating impactful solutions that make a difference.
+              I didn’t come from a tech background; in fact, I studied biology until 12th grade. Tech wasn’t something I grew up with. But once I entered engineering, I discovered programming, struggled at first, and then gradually started enjoying problem-solving and building smart systems. <span className="italic text-gray-600">My curiosity led me to explore data, ML, and cloud computing, and now I’m building projects and preparing for roles that challenge me. I’m not from a traditional tech start — but I’m proud of how far I’ve come.</span> I've been hooked ever since!
+            </p>
+            <p className="text-lg leading-relaxed mb-6 text-gray-700">
+              I'm always eager to learn new technologies and improve my skills, embracing challenges as opportunities for growth. Currently, I'm diving deeper into <span className="font-semibold text-teal-600">Problem Solving, Machine Learning</span>.
+            </p>
           </div>
 
           <h3 className="text-2xl md:text-3xl font-bold text-indigo-700 mb-4 text-center">Skills</h3>
