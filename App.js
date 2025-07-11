@@ -97,9 +97,8 @@ const App = () => {
         </div>
       </header>
 
-      {/* Hero Section - Updated with a new, reliable galaxy image URL */}
-      <section className="relative h-96 flex items-center justify-center text-center bg-cover bg-center" style={{ backgroundImage: 'url(https://images.pexels.com/photos/2150/sky-space-mix-galaxy.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)' }}>
-        <div className="absolute inset-0 bg-black opacity-60"></div>
+      {/* Hero Section - Removed galaxy image, replaced with gradient */}
+      <section className="relative h-96 flex items-center justify-center text-center bg-gradient-to-br from-indigo-600 to-purple-800 text-white shadow-xl">
         <div className="relative z-10 p-4">
           <h2 className="text-4xl md:text-6xl font-extrabold mb-4 drop-shadow-lg">Innovating with Code</h2>
           <p className="text-xl md:text-2xl mb-6 max-w-2xl mx-auto">Problem Solver | Machine Learning Enthusiast | Cloud Explorer</p>
